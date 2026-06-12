@@ -1,0 +1,68 @@
+const testimonials = [
+  {
+    id: 1,
+    name: 'Rajesh Kumar',
+    role: 'Business Owner, Ranchi',
+    rating: 5,
+    feedback: 'Aavya Enterprises helped me settle my business loan when I thought there was no way out. Their professional approach and genuine care for my situation made all the difference. I highly recommend their services to anyone facing financial difficulties.',
+    avatar: null,
+  },
+  {
+    id: 2,
+    name: 'Priya Sharma',
+    role: 'IT Professional, Bangalore',
+    rating: 5,
+    feedback: 'I was drowning in credit card debt from multiple banks. The team at Aavya Enterprises negotiated settlements with all my creditors and saved me a significant amount. Their confidential handling gave me peace of mind throughout the process.',
+    avatar: null,
+  },
+  {
+    id: 3,
+    name: 'Amit Verma',
+    role: 'Small Business Owner, Patna',
+    rating: 5,
+    feedback: 'When my vehicle was about to be repossessed, Aavya Enterprises stepped in and negotiated with the finance company. They not only saved my vehicle but also got a much better settlement than I could have managed on my own.',
+    avatar: null,
+  },
+  {
+    id: 4,
+    name: 'Sunita Devi',
+    role: 'Homemaker, Ranchi',
+    rating: 4,
+    feedback: 'After my husband lost his job, we couldn\'t pay our home loan EMIs. Shankar Ji and his team at Aavya Enterprises handled everything with such sensitivity. They negotiated a moratorium and restructured our loan. We are forever grateful.',
+    avatar: null,
+  },
+  {
+    id: 5,
+    name: 'Vikash Singh',
+    role: 'Engineer, Delhi',
+    rating: 5,
+    feedback: 'I had taken multiple digital loans from various apps and the harassment was unbearable. Aavya Enterprises not only settled all my digital loans but also stopped the harassment calls. Their professionalism is unmatched.',
+    avatar: null,
+  },
+  {
+    id: 6,
+    name: 'Meera Patel',
+    role: 'Teacher, Jamshedpur',
+    rating: 5,
+    feedback: 'The education loan settlement process was smooth and professional. The team understood my situation as a fresh graduate and worked tirelessly to get me a favorable settlement. I can finally focus on my career without financial stress.',
+    avatar: null,
+  },
+  {
+    id: 7,
+    name: 'Deepak Gupta',
+    role: 'Retail Store Owner, Ranchi',
+    rating: 4,
+    feedback: 'I had consumer finance obligations from multiple stores that had become unmanageable. Aavya Enterprises consolidated and settled all of them professionally. Their transparent process kept me informed at every step.',
+    avatar: null,
+  },
+  {
+    id: 8,
+    name: 'Anita Kumari',
+    role: 'Healthcare Professional, Dhanbad',
+    rating: 5,
+    feedback: 'The health insurance consulting service was excellent. They helped me choose the right policy for my family and even assisted in getting a previously rejected claim approved. Truly a one-stop financial solutions firm.',
+    avatar: null,
+  },
+];
+
+export default testimonials;
