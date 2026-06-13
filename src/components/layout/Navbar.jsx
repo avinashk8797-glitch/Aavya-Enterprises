@@ -38,15 +38,18 @@ const Navbar = () => {
         <div className="container-custom mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-3 group">
+            <Link
+              to="/"
+              className="flex items-center gap-2 md:gap-3 group flex-shrink-0 min-w-fit"
+            >
               <div className="w-10 h-10 bg-gradient-gold rounded-lg flex items-center justify-center shadow-gold group-hover:scale-110 transition-transform duration-300">
                 <span className="font-poppins font-bold text-navy text-xl">A</span>
               </div>
-              <div className="hidden sm:block">
-                <h1 className="font-poppins font-bold text-white text-lg leading-tight tracking-wide">
+              <div className="flex flex-col leading-none min-w-fit flex-shrink-0">
+                <h1 className="text-base sm:text-lg md:text-xl font-bold text-white font-poppins leading-tight tracking-wide">
                   Aavya
                 </h1>
-                <p className="text-gold text-[10px] font-inter tracking-[0.2em] uppercase -mt-0.5">
+                <p className="text-[9px] sm:text-[10px] md:text-xs tracking-[0.2em] text-gold uppercase font-inter -mt-0.5">
                   Enterprises
                 </p>
               </div>

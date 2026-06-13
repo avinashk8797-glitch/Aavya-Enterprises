@@ -40,10 +40,14 @@ const Footer = () => {
                 <span className="font-poppins font-bold text-navy text-2xl">A</span>
               </div>
               <div>
-                <h3 className="font-poppins font-bold text-xl leading-tight">Aavya</h3>
-                <p className="text-gold text-[10px] font-inter tracking-[0.25em] uppercase">
-                  Enterprises
-                </p>
+                <h3 className="font-poppins font-bold text-xl leading-tight text-white">
+                   Aavya
+                </h3>
+
+              <p className="text-gold text-[10px] font-inter tracking-[0.25em] uppercase">
+                   Enterprises
+               </p>
+
               </div>
             </Link>
             <p className="text-gray-400 text-sm font-inter leading-relaxed mb-6">
@@ -80,7 +84,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-poppins font-semibold text-lg mb-6 flex items-center gap-2">
+            <h4 className="text-white font-poppins font-semibold text-lg mb-6 flex items-center gap-2">
               <span className="w-8 h-0.5 bg-gold rounded-full" />
               Quick Links
             </h4>
@@ -106,7 +110,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-poppins font-semibold text-lg mb-6 flex items-center gap-2">
+            <h4 className="text-white font-poppins font-semibold text-lg mb-6 flex items-center gap-2">
               <span className="w-8 h-0.5 bg-gold rounded-full" />
               Our Services
             </h4>
@@ -141,7 +145,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-poppins font-semibold text-lg mb-6 flex items-center gap-2">
+            <h4 className="text-white nfont-poppins font-semibold text-lg mb-6 flex items-center gap-2">
               <span className="w-8 h-0.5 bg-gold rounded-full" />
               Contact Us
             </h4>

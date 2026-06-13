@@ -1,24 +1,21 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Phone, MessageCircle, Shield, Award } from 'lucide-react';
-import heroBg from '../../assets/images/hero-bg.png';
+import heroBg from '../../assets/hero-building.jpeg';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-x-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0 -z-10">
-        <img
-          src={heroBg || 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200'}
-          alt="Premium corporate finance office"
-          className="w-full h-full object-cover"
-          loading="eager"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/95 via-navy/85 to-navy/60" />
-      </div>
+    <section
+      className="relative min-h-screen flex items-center overflow-x-hidden bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: `url(${heroBg})`,
+      }}
+    >
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-navy/70"></div>
 
       {/* Decorative Elements */}
-      <div className="absolute inset-0 pointer-events-none -z-10">
+      <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 right-1/4 w-64 h-64 rounded-full bg-gold/5 blur-3xl" />
         <div className="absolute bottom-1/4 left-1/4 w-96 h-96 rounded-full bg-gold/3 blur-3xl" />
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent" />
@@ -46,7 +43,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.1 }}
-              className="font-poppins font-bold text-4xl md:text-5xl lg:text-[3.5rem] text-white leading-[1.15] mb-6"
+              className="font-poppins font-bold text-4xl md:text-6xl lg:text-7xl text-white leading-[1.15] mb-6"
             >
               Professional{' '}
               <span className="text-gradient-gold">Loan Settlement</span>,
@@ -119,7 +116,7 @@ const HeroSection = () => {
       </div>
 
       {/* Bottom Gradient */}
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-white to-transparent -z-10" />
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-white to-transparent" />
     </section>
   );
 };
