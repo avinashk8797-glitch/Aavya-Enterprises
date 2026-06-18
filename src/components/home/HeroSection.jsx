@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Phone, MessageCircle, Shield, Award } from 'lucide-react';
-import heroBg from '../../assets/hero-building.jpeg';
+import heroBg from '../../assets/hero-building1.png';
 
 const HeroSection = () => {
   return (
@@ -21,10 +21,10 @@ const HeroSection = () => {
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent" />
       </div>
 
-      <div className="container-custom mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="flex items-center min-h-screen">
+      <div className=" container-custom mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="flex items-center justify-start min-h-screen">
           {/* Content */}
-          <div className="max-w-4xl pt-28 pb-16">
+          <div className="max-w-5xl pt-28 pb-16">
             {/* Trust Badge */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
